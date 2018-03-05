@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    background-color: #e8e8e8;
+    color: #393939;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+
+
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header-textbox {
+    position:absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    margin-right: 20px;
+    transition: background-color 1s, border 1s, color 1s;
+}
+
+.btn:hover,
+.btn:active{
+
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    background-color: transparent;
+    border: 1px solid #e67e22;
+    color: #e67e22;
+
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #e67e22;
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.btn-solid:link,
+.btn-solid:visited{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+
+}
+
+.btn-solid:hover,
+.btn-solid:active{
+   background-color: transparent;
+   border: 1px solid #e67e22;
+   color: #e67e22;
+}
+
+.logo{
+    width:100px;
+    height:auto;
+    float:left;
+    margin-top: 20px;
+}
+
+.nav{
+    float:right;
+    margin-top: 55px;
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav li a:link,
+.nav li a:visited{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 8px;
+    border-bottom: 2px solid transparent;
+    font-size: 90%;
+    text-transform: uppercase;
+    transform: border-bottom 0.2s;
+
+}
+
+.nav li a:hover,
+.nav li a:active{
+    border-bottom: 2px solid #e67e22;
+
+}
