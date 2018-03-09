@@ -70,14 +70,23 @@ h2:after {
 }
 .box p{
     font-size: 80%;
-    line-height: 140%
+    line-height: 140%;
+    transition: color 0.5s;
+}
+
+.box p:hover{
+    color: #e67e22;
 }
 
 .icon-big{
     display: block;
     font-size: 350%;
     color: #e67e22;
+    transition: color 0.5s;
+}
 
+.icon-big:hover{
+    color: #000;
 }
 
 .row{
@@ -205,16 +214,51 @@ header{
     width: 100%;
     height: auto;
     opacity: 0.7;
-    transform: scale(1.15);
+    transform: scale(1.03);
     transition: transform 0.5s, opacity 0.5s
 }
 
 .meal-image img:hover{
     opacity: 1;
-    transform: scale(1.03);
+    transform: scale(1.30);
 
 }
 
 .section-meal{
     padding: 0;
+}
+
+.steps-box {
+
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+
+
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top:30px;
+}
+
+.app-screen{
+    width:40%;
+}
+
+.steps div{
+    color: #e67e22;
+    border:2px solid;
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    text-align: center;
+    padding: 9px;
+    float:left;
+    margin-right: 25px;
+    width: 50px;
+    display: inline-block;
+    font-size: 150%
 }
